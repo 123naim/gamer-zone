@@ -92,19 +92,19 @@
     }
 
     .play-instantly-img .mans>img {
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
         padding-left: 45px;
     }
     
     .play-instantly-img .baby>img {
-        width: 120px;
-        height: 135px;
+        width: 110px;
+        height: 125px;
     }
     .play-instantly-img>.baby {
         position: absolute;
-        top: 250px;
-        left: -10px;
+        top: 240px;
+        left: -7px;
     }
 
     .play-contents2{
