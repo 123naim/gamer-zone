@@ -75,8 +75,7 @@
 
 /* this is banner section style here */
 .banner-container {
-    width: 85%;
-    margin: 0 auto;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,11 +83,11 @@
 
 .banner-content {
     background-image: url('images/Group\ 14.png');
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 50%;
-    padding: 92px;
+    padding: 110px;
 }
 
 .banner-title {
@@ -102,6 +101,7 @@
 .banner-goat {
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     font-size: 70px;
     margin: 0;
@@ -118,6 +118,7 @@
 .fa-solid {
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
 }
 
@@ -171,6 +172,7 @@
 .we-are-gamer-title {
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     font-size: 35px;
     margin: 0;
@@ -223,6 +225,7 @@
 .funny-video {
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
 }
 
@@ -231,14 +234,178 @@
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
-    
+
 }
-.online-games-cards-container{
+
+.online-games-cards-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: left;
     gap: 15px;
 }
-.online-games-card img{
+
+.online-games-card img {
     width: 100%;
+}
+
+
+/* this is play-instantly-container section style here */
+.play-instantly-container {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.play-contents1 {
+    display: flex;
+    align-items: center;
+    min-height: 200px;
+}
+
+.play-instantly-content {
+    text-align: right;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.play-instantly-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.play-instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-desc {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.play-instantly-img {
+    min-height: 200px;
+    position: relative;
+}
+
+.play-instantly-img .mans>img {
+    width: 500px;
+    height: 500px;
+}
+
+.play-instantly-img .baby>img {
+    width: 200px;
+    height: 240px;
+}
+
+
+.play-instantly-img>.baby {
+    position: absolute;
+    top: 320px;
+    left: -85px;
+}
+
+/* this is games name section */
+.games-container {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.games-name-container {
+    width: 90%;
+    padding: 100px 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+.games-name-img {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 100px;
+    transition: border 0.2s, padding 0.2s, border-radius 0.2s, color 0.2s;
+}
+
+.games-name {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#games-img {
+    width: 40px;
+    height: 40px;
+}
+
+.games-name-img:hover {
+    border: 2px solid #F948B2;
+    padding: 5px 15px;
+    border-radius: 100px;
+}
+
+.games-name-img:hover .games-name {
+    color: #F948B2;
+}
+
+
+/* tooter section style here */
+footer {
+    background-color: #0B0223;
+    color: white;
+}
+
+.footer-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.our-history-website {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 40px;
+}
+
+.our-history-website>p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-icon>button{
+    margin: 10px 10px 20px 10px;
+    border: none;
+    font-size: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+.footer-policy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
 }
