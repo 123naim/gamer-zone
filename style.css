@@ -2,8 +2,13 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
+
+.hide{
+    display: none;
+}
 
 /* this is header section style here */
 
@@ -40,7 +45,6 @@
 
 /* this is nav manues style here */
 .nav-menues {
-    width: 60%;
     display: flex;
     justify-content: end;
     gap: 25px;
@@ -222,7 +226,7 @@
     margin: 0;
 }
 
-.funny-video {
+.funny-video{
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
     color: transparent;
     background-clip: text;
@@ -247,6 +251,7 @@
 .online-games-card img {
     width: 100%;
 }
+
 
 
 /* this is play-instantly-container section style here */
@@ -292,7 +297,6 @@
 }
 
 .play-instantly-img {
-    min-height: 200px;
     position: relative;
 }
 
@@ -391,6 +395,7 @@ footer {
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
+    line-height: 5px;
 }
 
 .footer-icon>button{
