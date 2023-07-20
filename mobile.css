@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     /* nav bar design here */
     .nav-container {
         width: 100%;
@@ -75,6 +75,10 @@
         text-align: center;
     }
 
+    .online-games-content-container {
+        top: 42%;
+        left: 28%;
+    }
 
     /* play instanly section */
     .play-instantly-container {
